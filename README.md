@@ -1,6 +1,8 @@
 
 Project: Password less Authentication
+
 School: Champion School
+
 Student: Arya More
 
 Overview:
@@ -17,10 +19,10 @@ Please follow following steps to create authentication service
    b. Download Git
    c. Download Heroku Client
    d. Add Heroku Postgres db add-on
-   e. execute the DDL Script packaged in the AryaCreate.zip
+   e. Execute the DDL Script packaged in the AryaCreate.zip
 2. Create a folder
 3. Unzip authenticationService.zip in a folder
-4. Update ostgres database information in devicedbconfig.json based on the heroku postgres db created on heroku
+4. Update postgres database information in devicedbconfig.json based on the heroku postgres db created on heroku
 5. Create a heroku instance 
     heroku create
 6. git push heroku master
