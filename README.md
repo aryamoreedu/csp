@@ -16,14 +16,15 @@ Please follow following steps to create authentication service
    a. Download Python
    b. Download Git
    c. Download Heroku Client
-   d. Add Heroku Postgres
-   e. 
-4. Create a folder
-5. Unzip authenticationService.zip in a folder
-6. Create a heroku instance 
+   d. Add Heroku Postgres db add-on
+   e. execute the DDL Script packaged in the AryaCreate.zip
+2. Create a folder
+3. Unzip authenticationService.zip in a folder
+4. Update ostgres database information in devicedbconfig.json based on the heroku postgres db created on heroku
+5. Create a heroku instance 
     heroku create
-7. git push heroku master
-8. You can check if the service is running using heroku logs --tail
+6. git push heroku master
+7. You can check if the service is running using heroku logs --tail
 
 To understand more about "Python on Heroku" goto https://devcenter.heroku.com/articles/getting-started-with-python
 
