@@ -13,7 +13,7 @@ Passwordless Authentication contains two services:
 1. Authentication Service
 2. Gateway Service
 
-Authentication Service is deployment on Heroku:
+1. Authentication Service is deployment on Heroku:
 
 Please follow following steps to create authentication service
 1. Setup to connect with Heroku
@@ -32,7 +32,7 @@ Please follow following steps to create authentication service
 
 To understand more about "Python on Heroku" goto https://devcenter.heroku.com/articles/getting-started-with-python
 
-Gateway Service is deployment on raspberry Pi
+2. Gateway Service is deployment on raspberry Pi
 
 1. Install Python on raspberry pi
 2. Instal SQLLite
