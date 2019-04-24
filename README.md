@@ -16,6 +16,8 @@ Please follow following steps to create authentication service
    a. Download Python
    b. Download Git
    c. Download Heroku Client
+   d. Add Heroku Postgres
+   e. 
 4. Create a folder
 5. Unzip authenticationService.zip in a folder
 6. Create a heroku instance 
@@ -29,5 +31,7 @@ Gateway Service is deployed on raspberry Pi
 1. Install Python on raspberry pi
 2. Instal SQLLite
 3. Install PySQLCipher
-4. 
+4. Uncompress the gatewayservice.zip file
+6. goto src folder - cd gatewayservice\gatewayservice\src
+7. python startUSBGUI.py
 
